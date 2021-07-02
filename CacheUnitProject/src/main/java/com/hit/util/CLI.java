@@ -41,6 +41,7 @@ public class CLI extends java.lang.Object
     @Override
     public void run() {
         String request;
+        write("Please insert a command\n");
         while (true) {
             try {
                 request = reader.nextLine().toUpperCase();
